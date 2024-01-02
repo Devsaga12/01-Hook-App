@@ -63,3 +63,10 @@ export const ImprimirVariablesCompone = () => {
   );
 };
 una regla que se debe tener en cuenta es que si no esta cambiando el valor de la variblo  o no tiene ninguna relacion con ningun hooks entonces no es recomendado que este dentro del funcional component, perfectamente debe estar  fuera del scoop 
+
+
+const arregloChildre ={
+    mensaje:'Hola Mundo',
+    title:'Maick'
+}
+ <code>{JSON.stringify (arregloChildre) }</code>
