@@ -41,6 +41,25 @@ function ExportDefaul(){
 
 # CompontsFragment
 si en nuestra app requerimos un titulo y otro mensaje , debo usar un nodo padre mas conocido como fragmen
+o la palabra fragmen con su respectiva importacion
+<frament><frament>
+<>
+este codigo representa el fragmento de manera mas simple 
+<>
 
-<>
-<>
+
+# //TODO: imprimir variables en html
+dentro de la pieza , fragmento , objeto que vallamos a editar  sea el parrafo , el div , lo que sea
+se requiera reemplazar algo mediante una expresion de Js usamos {} y dentro el nombre del contenido
+ejemplo
+export const ImprimirVariablesCompone = () => {
+    const nuevoMensaje ='Hola  Maick'
+  return (
+    <>
+      <h1 className="btn btn-danger">{nuevoMensaje}</h1>
+
+      <p>Soy un impresor de variable</p>
+    </>
+  );
+};
+una regla que se debe tener en cuenta es que si no esta cambiando el valor de la variblo  o no tiene ninguna relacion con ningun hooks entonces no es recomendado que este dentro del funcional component, perfectamente debe estar  fuera del scoop 
