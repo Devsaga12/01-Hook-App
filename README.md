@@ -70,3 +70,33 @@ const arregloChildre ={
     title:'Maick'
 }
  <code>{JSON.stringify (arregloChildre) }</code>
+
+
+ # Comunicacion entre props(propiedades)
+
+ // las props son propiedades que se le asignan a ciertas funciones,  usalmente se desestructuran,las prons son un objeto que puede almacenar mucha informacion dependiendo del contesto, puede ser router 
+
+ las props m permiten el canal de comunicacion entre el componente padre
+ digamos que de las props yo estaria recibiendo una variable en el momento que desee requerir las propiedades , se deben llamar desde el archivo padre donde se esta imprimiendo el archivo app
+ mediante nombre de la propiedad="valor"
+
+# archivo  Props
+export const Property = ({title}) => {
+//   console.log(props);
+  return (
+    <>
+      <h1>{title}</h1>
+      <p> Soy una Props</p>
+    </>
+  );
+};
+    
+
+# archivo raiz
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+   <React.StrictMode>  
+    <App title="Hola , soy una props" subTitle="123"/>
+   </React.StrictMode>, 
+  </BrowserRouter>
+)

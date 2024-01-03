@@ -1,4 +1,10 @@
+
+
 const nuevoMensaje ='Hola  Maick'
+
+const funcionDeflecha=(a , b)=>{
+  return a + b;
+}
 
 const arregloChildre ={
     mensaje:'Hola Mundo',
@@ -15,6 +21,9 @@ export const ImprimirVariablesCompone = () => {
       <h1 className="btn btn-danger">{nuevoMensaje}</h1>
 
       <p>Soy un impresor de variable : <code>{JSON.stringify (arregloChildre) }</code> </p>
+
+      <p>esta es una funcion de flecha:{funcionDeflecha()}</p>
+      
     </>
   );
 };
