@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import './css/index.css';
-import { App } from './App';
+import { FirstApp } from './FirstApp';
+// import { App } from './App';
 
 //import { App } from './App';
 //import { CounterApp } from './01-useState/CounterApp';
@@ -25,7 +26,7 @@ import { App } from './App';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
    <React.StrictMode>  
-    <App/>
+    <FirstApp/>
    </React.StrictMode>, 
   </BrowserRouter>
 )

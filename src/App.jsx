@@ -16,15 +16,15 @@ export const App = () => {
       </span>
 
       {/* <Components/>  exportacion individual*/}
-      <Components/>
-      <hr />
+      {/* <Components/> */}
+      {/* <hr /> */}
       {/*ExportDefaul exportacion por defecto desde otro componente  */}
       {/* //TODO:Expor por defecto */}
-     <ExportDefaul/> 
+     {/* <ExportDefaul/>  */}
 
-      <hr />
+      {/* <hr /> */}
       {/* //TODO:nuevo componente de framgment */}
-      <CompontsFragment/>
+      {/* <CompontsFragment/> */}
 
 
     </>
